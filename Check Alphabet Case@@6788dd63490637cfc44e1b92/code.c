@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<ctype.h>
 int main()
 {
     char ch;
     scanf("%c",&ch);
-    if( 65 <=ch =<97)
+    if(isupper(ch))
     {
         printf("Uppercase");
     }
