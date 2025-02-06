@@ -11,11 +11,11 @@ int main()
     {
         printf("B");
     }
-    else if (80>n>=70)
+    else if (n>=70 & n<80)
     {
         printf("C");
     }
-    else if(70>n>=60)
+    else if(n>=60 & n<70)
     {
         printf("D");
     }
