@@ -7,4 +7,11 @@ int main()
     {
         printf("Stop");
     }
+    else if(c=='Y')
+    {
+        printf("Wait");
+    }
+    else{
+        printf("Go");
+    }
 }
