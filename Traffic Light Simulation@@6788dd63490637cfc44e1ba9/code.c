@@ -9,9 +9,12 @@ int main()
     }
     else if(c=='Y')
     {
-        printf("Invalid input");
+        printf("Slow Down");
+    }
+    else if(c=='G'){
+        printf("Go");
     }
     else{
-        printf("Go");
+        printf("Invalid Input");
     }
 }
